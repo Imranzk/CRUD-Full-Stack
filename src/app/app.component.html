@@ -1,0 +1,26 @@
+<nav>
+  <ul >
+    <li class="nav-item">
+      <a routerLink="tasks" class="nav-link btn btn-outline-primary">Show Task Lists</a>
+    </li>
+  
+    <li class="nav-item">
+      <a routerLink="create-task" routerLinkActive="active" class="nav-link btn btn-outline-primary" 
+      role="button">Create New Task</a>
+    </li>
+  </ul>
+  
+  </nav>
+  
+  <h1 class="text-center" >{{title}}</h1>
+  <div class="container">
+  <router-outlet></router-outlet>
+  </div>
+  <footer class="footer">
+  
+    <div class="container">
+      <span>
+        All Rights Reserved 2024 JavaAngular
+      </span>
+    </div>
+  </footer>

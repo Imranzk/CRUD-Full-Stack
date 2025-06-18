@@ -1,0 +1,100 @@
+/* footer.component.css */
+
+/* Basic footer styling */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark gray text color */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center the text */
+    position: relative; /* Allows positioning of child elements if needed */
+    bottom: 0; /* Sticks to the bottom */
+    left: 0; /* Aligns to the left */
+    right: 0; /* Aligns to the right */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 15px; /* Reduce padding on small screens */
+    }
+  }
+  
+  /* Links in the footer */
+  .footer a {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Optional: Footer with icons */
+  .footer .social-icons {
+    margin-top: 10px; /* Space above social icons */
+  }
+  
+  .footer .social-icons img {
+    width: 24px; /* Adjust icon size */
+    margin: 0 10px; /* Space between icons */
+  }
+  
+  /* Optional: Additional styling for copyright text */
+  .footer .copyright {
+    font-size: 14px; /* Font size for copyright */
+    margin-top: 10px; /* Space above copyright */
+  }
+
+  /* nav.component.css or app.component.css */
+
+/* Basic navigation item styling */
+.nav-item {
+    margin: 0 10px; /* Add spacing between nav items */
+  }
+  
+  .nav-link {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add padding for better clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover and active effects */
+  }
+  
+  /* Hover effect */
+  .nav-link:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    background-color: #007bff; /* Blue background for active link */
+    color: white; /* White text for active link */
+  }
+  
+  /* Optional: Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .nav-item {
+      margin: 0 5px; /* Reduce margin on small screens */
+    }
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Adds space if there are other items next to it */
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem; /* Adjust padding to make it look more like a button */
+    font-weight: bold; 
+    font-size: 1.4rem;    /* Make the text bold */
+    color: #007bff;       /* Override the color to match the primary button style */
+    border-color: #007bff;/* Border color to match the primary color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: #0a0101;               /* Change text color to white on hover */
+  }
+  
+  
